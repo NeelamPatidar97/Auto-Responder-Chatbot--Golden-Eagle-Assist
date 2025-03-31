@@ -1,0 +1,141 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: ask about courses
+  steps:
+  - intent: ask_courses
+  - action: utter_ask_courses
+
+- story: ask about admissions
+  steps:
+  - intent: ask_admissions
+  - action: utter_ask_admissions
+
+- story: ask about fees
+  steps:
+  - intent: ask_fees
+  - action: utter_ask_fees
+
+- story: ask about facilities
+  steps:
+  - intent: ask_facilities
+  - action: utter_ask_facilities
+
+# New Stories
+- story: ask about library
+  steps:
+  - intent: ask_library
+  - action: utter_ask_library
+
+- story: ask about housing
+  steps:
+  - intent: ask_housing
+  - action: utter_ask_housing
+
+- story: ask about financial aid
+  steps:
+  - intent: ask_financial_aid
+  - action: utter_ask_financial_aid
+
+- story: ask about student health
+  steps:
+  - intent: ask_student_health
+  - action: utter_ask_student_health
+
+- story: ask about parking
+  steps:
+  - intent: ask_parking
+  - action: utter_ask_parking
+
+- story: ask about dining
+  steps:
+  - intent: ask_dining
+  - action: utter_ask_dining
+
+- story: ask about sports
+  steps:
+  - intent: ask_sports
+  - action: utter_ask_sports
+
+- story: ask about registration
+  steps:
+  - intent: ask_registration
+  - action: utter_ask_registration
+
+- story: ask about orientation
+  steps:
+  - intent: ask_orientation
+  - action: utter_ask_orientation
+
+- story: ask about transcripts
+  steps:
+  - intent: ask_transcripts
+  - action: utter_ask_transcripts
+
+- story: ask about career services
+  steps:
+  - intent: ask_career_services
+  - action: utter_ask_career_services
+
+- story: ask about scholarships
+  steps:
+  - intent: ask_scholarships
+  - action: utter_ask_scholarships
+
+- story: ask about clubs
+  steps:
+  - intent: ask_clubs
+  - action: utter_ask_clubs
+
+- story: ask about IT support
+  steps:
+  - intent: ask_it_support
+  - action: utter_ask_it_support
+
+- story: ask about bookstore
+  steps:
+  - intent: ask_bookstore
+  - action: utter_ask_bookstore
+
+- story: ask about graduate programs
+  steps:
+  - intent: ask_graduate_programs
+  - action: utter_ask_graduate_programs
+
+- story: ask about international students
+  steps:
+  - intent: ask_international_students
+  - action: utter_ask_international_students
+
+- story: ask about academic calendar
+  steps:
+  - intent: ask_academic_calendar
+  - action: utter_ask_academic_calendar

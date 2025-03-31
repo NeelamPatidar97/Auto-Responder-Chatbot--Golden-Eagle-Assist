@@ -1,0 +1,267 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: ask_courses
+  examples: |
+    - What courses are offered?
+    - Tell me about your programs.
+    - What undergraduate programs do you have?
+    - Do you have postgraduate courses?
+    - What are the available specializations?
+
+- intent: ask_admissions
+  examples: |
+    - How do I apply for admission?
+    - What is the admission process?
+    - How do I enroll?
+    - Can I apply online?
+
+- intent: ask_fees
+  examples: |
+    - What is the fee structure?
+    - How much are the fees for engineering?
+    - Tell me the tuition fees for management courses.
+    - What is the cost of your programs?
+
+- intent: ask_facilities
+  examples: |
+    - What facilities does the college have?
+    - Tell me about the campus amenities.
+    - Do you have a library?
+    - Are there sports facilities?
+    - What are the hostel facilities like?
+
+# New Intents Examples
+# New Intents Examples
+- intent: ask_library
+  examples: |
+    - What are the library hours?
+    - Can you tell me about the library?
+    - When is the library open?
+    - Library timings
+    - What services does the library offer?
+
+- intent: ask_housing
+  examples: |
+    - What are the housing options?
+    - Tell me about on-campus housing
+    - How can I apply for housing?
+    - On-campus housing details
+    - Housing options for students
+
+- intent: ask_financial_aid
+  examples: |
+    - What financial aid options are available?
+    - How do I apply for financial aid?
+    - Financial aid details
+    - Scholarships and financial aid
+    - Assistance with tuition fees
+
+- intent: ask_student_health
+  examples: |
+    - What health services are available for students?
+    - Tell me about student health services
+    - Is there a health center on campus?
+    - Medical services for students
+    - How can I access student health services?
+
+- intent: ask_parking
+  examples: |
+    - Where can I park on campus?
+    - Tell me about parking facilities
+    - Parking options at the university
+    - Parking information
+    - Is there parking for students?
+
+- intent: ask_dining
+  examples: |
+    - What are the dining options on campus?
+    - Tell me about dining facilities
+    - Where can I eat on campus?
+    - Campus dining services
+    - Food options at the university
+
+- intent: ask_sports
+  examples: |
+    - What sports facilities are available?
+    - Tell me about the sports options
+    - Are there any sports clubs?
+    - Athletics information
+    - What sports can I play on campus?
+
+- intent: ask_registration
+  examples: |
+    - How do I register for courses?
+    - Tell me about the registration process
+    - Course registration details
+    - Steps to register for classes
+    - How can I enroll in courses?
+
+- intent: ask_orientation
+  examples: |
+    - What is the new student orientation schedule?
+    - Tell me about orientation
+    - Orientation details
+    - Orientation for new students
+    - When is the student orientation?
+
+- intent: ask_transcripts
+  examples: |
+    - How do I request transcripts?
+    - Tell me about transcript requests
+    - Transcripts information
+    - Obtaining transcripts
+    - Process for requesting transcripts
+
+- intent: ask_career_services
+  examples: |
+    - What career services are offered?
+    - Tell me about career planning
+    - Assistance with job search
+    - Career counseling options
+    - How can I access career services?
+
+- intent: ask_scholarships
+  examples: |
+    - What scholarships are available?
+    - Tell me about scholarship opportunities
+    - How can I apply for scholarships?
+    - Scholarship details
+    - Financial aid scholarships
+
+- intent: ask_clubs
+  examples: |
+    - What student clubs are there?
+    - Tell me about student organizations
+    - Clubs and societies on campus
+    - How can I join a club?
+    - Information about student clubs
+
+- intent: ask_it_support
+  examples: |
+    - How do I get IT support?
+    - Tell me about IT services
+    - Technical support for students
+    - Assistance with technical issues
+    - IT helpdesk information
+
+- intent: ask_bookstore
+  examples: |
+    - What are the bookstore hours?
+    - Tell me about the university bookstore
+    - Where is the campus bookstore?
+    - Buying books from the bookstore
+    - University bookstore details
+
+- intent: ask_graduate_programs
+  examples: |
+    - What graduate programs are available?
+    - Tell me about postgraduate courses
+    - Graduate program options
+    - Information about graduate studies
+    - How can I apply for graduate programs?
+
+- intent: ask_international_students
+  examples: |
+    - What services are available for international students?
+    - Tell me about international student support
+    - Help for international students
+    - Assistance for international admissions
+    - Information for international students
+
+- intent: ask_academic_calendar
+  examples: |
+    - What is the academic calendar for this year?
+    - Tell me about the semester schedule
+    - Academic year dates
+    - When do semesters start and end?
+    - University calendar details

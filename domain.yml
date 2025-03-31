@@ -1,0 +1,125 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - ask_courses
+  - ask_admissions
+  - ask_fees
+  - ask_facilities
+  - ask_library
+  - ask_housing
+  - ask_financial_aid
+  - ask_student_health
+  - ask_parking
+  - ask_dining
+  - ask_sports
+  - ask_registration
+  - ask_orientation
+  - ask_transcripts
+  - ask_career_services
+  - ask_scholarships
+  - ask_clubs
+  - ask_it_support
+  - ask_bookstore
+  - ask_graduate_programs
+  - ask_international_students
+  - ask_academic_calendar
+
+
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How can I assist you?"
+
+  utter_goodbye:
+  - text: "Goodbye! Feel free to reach out again."
+
+  utter_ask_courses:
+  - text: "We offer undergraduate, postgraduate, and PhD programs in Engineering, Science, and Management."
+
+  utter_ask_admissions:
+  - text: |
+      You can apply online through our website or visit the admissions office for guidance.
+
+      Admission Deadlines:
+
+      Undergraduate Programs:
+      - Fall 2025: Opens October 1, 2024
+      - Summer 2025: Closed
+      - Spring 2025: Closed
+      - Fall 2024: Closed
+
+      Graduate/Post-Baccalaureate Programs:
+      - Fall 2025: Opens October 1, 2024
+      - Summer 2025: Opens February 1, 2025
+      - Spring 2025: Opens August 1, 2024
+      - Fall 2024: Closed
+
+      For more details, visit: [Cal State LA Admissions](https://www.calstatela.edu/admissions)
+
+  utter_ask_fees:
+  - text: "The fee structure depends on the course. Please visit the fees section on our website for detailed information: https://www.calstatela.edu/finance-onestop/student-fees"
+
+  utter_ask_facilities:
+  - text: "Our campus includes a library, sports center, cafeteria, and hostel facilities: https://www.calstatela.edu/facility"
+
+  utter_happy:
+  - text: "I'm glad to hear that! Keep it up!"
+
+  utter_cheer_up:
+  - text: "Here's something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_iamabot:
+  - text: "I am a bot, here to assist you with college enquiries."
+
+  utter_ask_library:
+  - text: "The library hours for this week are as follows:\nLibrary North Building:\n- Monday to Thursday: 8 AM - 10 PM\n- Friday: 8 AM - 5 PM\n- Saturday: 10 AM - 6 PM\n- Sunday: Closed\n\nPalmer Wing Building:\n- Monday to Thursday: 8 AM - 7 PM\n- Friday: 8 AM - 5 PM\n- Saturday and Sunday: Closed\n\nFor more details, visit: https://www.calstatela.edu/library"
+  utter_ask_housing:
+  - text: "For on-campus housing, visit Cal State LA's housing portal: https://www.calstatela.edu/housing\n\nTo get Frequently Asked Questions related to housing click on the link below: https://www.calstatela.edu/housing/how-apply-faqs"
+  utter_ask_financial_aid:
+  - text: "For financial aid-related questions, please visit CalState LA's website: https://www.calstatela.edu/financialaid"
+  utter_ask_student_health:
+  - text: "For student health services, click here: https://www.calstatela.edu/studenthealthcenter"
+  utter_ask_parking:
+  - text: "For parking information, visit: https://www.calstatela.edu/parking"
+  utter_ask_dining:
+  - text: "Dining services and hours can be found here: https://www.calstatela.edu/housing/dining"
+  utter_ask_sports:
+  - text: "For athletics and sports schedules, click here: https://lagoldeneagles.com/"
+  utter_ask_registration:
+  - text: "For course registration help, visit: https://www.calstatela.edu/registrar/registration-enrollment"
+  utter_ask_orientation:
+  - text: "Details about new student orientation are available here: https://www.calstatela.edu/students-families/first-flight"
+  utter_ask_transcripts:
+  - text: "To request transcripts, click here: https://www.calstatela.edu/registrar/transcripts-verifications"
+  utter_ask_career_services:
+  - text: "Career services information can be found here: https://www.calstatela.edu/careercenter"
+  utter_ask_scholarships:
+  - text: "Scholarship opportunities are listed here: https://www.calstatela.edu/financialaid/scholarships"
+  utter_ask_clubs:
+  - text: "Find student organizations and clubs here: https://www.calstatela.edu/business/student-clubs"
+  utter_ask_it_support:
+  - text: "For IT support, visit: https://www.calstatela.edu/its/helpdesk"
+  utter_ask_bookstore:
+  - text: "The university bookstore details are available here: https://calstate-la.bncollege.com/"
+  utter_ask_graduate_programs:
+  - text: "Information on graduate programs can be found here: https://www.calstatela.edu/nss/graduate-programs"
+  utter_ask_international_students:
+  - text: "Support for international students is available here: https://www.calstatela.edu/international"
+  utter_ask_academic_calendar:
+  - text: "Check the academic calendar here: https://www.calstatela.edu/academicresources/academic-calendar"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
